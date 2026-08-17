@@ -1,0 +1,14 @@
+cff-version: "1.2.0"
+message: >-
+  If you use this software, please cite this repository and, when available,
+  the associated article.
+title: "Comparative Evaluation of Quasi-Cyclic Code-Based Signature Schemes under Hamming and Lee Metrics"
+type: software
+license: BSD-3-Clause
+authors:
+  - family-names: "Moreira"
+    given-names: "Pablo H. Santos"
+  - family-names: "Pereira"
+    given-names: "Diogo"
+  - family-names: "Borges"
+    given-names: "Fábio"

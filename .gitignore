@@ -1,0 +1,102 @@
+# Python bytecode and interpreter caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Numba compilation cache
+*.nbi
+*.nbc
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test, coverage, and type-checker caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs and background-process output
+*.log
+nohup.out
+
+# LaTeX auxiliary files (keep source .tex and intentional PDFs)
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Backup and patch leftovers
+*.bak
+*.orig
+*.rej
+
+# Archived/generated benchmark directories
+benchmark_latex_old*/
+benchmark_latex/
+
+# Benchmark figure-generation files kept outside the published repository
+generate_benchmark_latex.py
+NLength.tex
+
+# Local experimental results (publish separately when needed)
+benchmark_cfs*.json
+benchmark_cfs*.csv
+benchmark_results*.json
+benchmark_results*.csv
+cfs_sign_attempts_*.csv
+cfs_sign_attempts_*.json
+cfs_capacity_sweep.json
+cfs_capacity_sweep_raw.csv
+cfs_capacity_sweep_summary.csv
+cfs_decoder_failure_analysis.csv
+cfs_decoder_failure_analysis.json
+cfs_planted_batch_4096.csv
+cfs_planted_batch_4096.json
+cfs_planted_error_residual_trace.csv
+cfs_planted_error_results.json
+hqcs_r_signature_*.json
+lm_qcs_python_*.json
+lmqcs_python_*.json
+qc_ldpc_*.json
+results*.json
+results*.csv
+resultados*.json
+resultados*.csv
+sensitivity_*.csv
+sensitivity_*.json
